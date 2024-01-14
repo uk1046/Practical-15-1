@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World, Toast Example"
+    android:textSize="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/txt"
+    />
+    <Button
+        android:id="@+id/showToastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Toast"
+        android:layout_below="@+id/txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="showCustomToast"/>
+
+</RelativeLayout>
